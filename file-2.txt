@@ -1,1 +1,20 @@
-File ke-2 untuk folder repository "eduwork-git"
+// File ke-2 untuk folder repository "eduwork-git"
+
+// Berikut riwayat kodingan dari visual code studio untuk tugas JS Variable: file:///D:/Eduwork/Sites/edujs/edujsvariabletask.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>JS Edujs</title>
+</head>
+<body>
+     <p id="use_let"></p>
+
+     <script>
+        let x = "10" + 10 + 10;
+        let y = 10 + 10 + "10";
+        let z = x + y;
+        document.getElementById("use_let").innerHTML = "Hasil dari penjumlahan kode x + y = " + z;
+     </script>
+
+// Hasil: Hasil dari penjumlahan kode x + y = 1010102010
